@@ -1,0 +1,96 @@
+# Logging Configuration
+version: 1
+disable_existing_loggers: false
+
+# 기본 디렉토리 설정
+log_dir: "${app.base_dir}/logs"
+archive_dir: "${app.base_dir}/logs/archive"
+temp_dir: "${app.base_dir}/logs/temp"
+
+formatters:
+  app_formatter:
+    '()': service.logging.formatters.DetailedFormatter
+    app_name: talkware
+  
+  error_formatter:
+    '()': service.logging.formatters.DetailedFormatter
+    app_name: talkware
+  
+  access_formatter:
+    '()': service.logging.formatters.DetailedFormatter
+    app_name: talkware
+  
+  inference_formatter:
+    '()': service.logging.formatters.DetailedFormatter
+    app_name: talkware
+    
+  korean_formatter:
+    '()': service.logging.formatters.KoreanFormatter
+
+handlers:
+  app_handler:
+    class: service.logging.handlers.CustomRotatingFileHandler
+    level: INFO
+    formatter: app_formatter
+    filename: "${app.base_dir}/logs/talkware.log"
+    maxBytes: 104857600  # 100MB
+    backupCount: 10
+    encoding: utf8
+  
+  error_handler:
+    class: service.logging.handlers.CustomRotatingFileHandler
+    level: ERROR
+    formatter: korean_formatter
+    filename: "${app.base_dir}/logs/error.log"
+    maxBytes: 104857600  # 100MB
+    backupCount: 30
+    encoding: utf8
+
+  error_console_handler:
+    class: logging.StreamHandler
+    level: ERROR
+    formatter: korean_formatter
+    stream: ext://sys.stderr
+  
+  access_handler:
+    class: service.logging.handlers.CustomRotatingFileHandler
+    level: INFO
+    formatter: app_formatter
+    filename: "${app.base_dir}/logs/access.log"
+    maxBytes: 104857600  # 100MB
+    backupCount: 10
+    encoding: utf8
+  
+  inference_handler:
+    class: service.logging.handlers.CustomRotatingFileHandler
+    level: INFO
+    formatter: inference_formatter
+    filename: "${app.base_dir}/logs/inference.log"
+    maxBytes: 209715200  # 200MB
+    backupCount: 20
+    encoding: utf8
+
+loggers:
+  app:
+    level: INFO
+    handlers: [app_handler]
+    propagate: false
+  
+  error:
+    level: ERROR
+    handlers: [error_handler, error_console_handler]
+    propagate: false
+  
+  access:
+    level: INFO
+    handlers: [access_handler]
+    propagate: false
+  
+  inference:
+    level: INFO
+    handlers: [inference_handler]
+    propagate: false
+
+root:
+  level: INFO
+  handlers: [app_handler, error_handler]

@@ -1,0 +1,70 @@
+# Application Configuration
+app:
+  name: talkware
+  version: 0.1.0
+  environment: test
+  base_dir: /data/chatbot/talkware
+
+logging:
+  version: 1
+  disable_existing_loggers: false
+  formatters:
+    json:
+      class: libs.logging.CustomJSONFormatter
+  handlers:
+    app_handler:
+      class: libs.logging.CustomRotatingFileHandler
+      formatter: json
+      filename: /data/chatbot/talkware/logs/app.log
+      maxBytes: 1024
+      backupCount: 3
+      compress: true
+    inference_handler:
+      class: libs.logging.CustomRotatingFileHandler
+      formatter: json
+      filename: /data/chatbot/talkware/logs/inference.log
+      maxBytes: 2048
+      backupCount: 20
+      compress: true
+    access_handler:
+      class: libs.logging.CustomRotatingFileHandler
+      formatter: json
+      filename: /data/chatbot/talkware/logs/access.log
+      maxBytes: 1024
+      backupCount: 10
+      compress: true
+    error_handler:
+      class: libs.logging.CustomRotatingFileHandler
+      formatter: json
+      filename: /data/chatbot/talkware/logs/error.log
+      maxBytes: 1024
+      backupCount: 30
+      compress: true
+  root:
+    level: INFO
+    handlers: [app_handler, inference_handler, access_handler, error_handler]
+  directory:
+    base: /data/chatbot/talkware/logs
+    archive: /data/chatbot/talkware/logs/archive
+    temp: /data/chatbot/talkware/logs/temp
+  files:
+    app:
+      filename: app.log
+      max_size: 1M
+      backup_count: 10
+      compress: true
+    inference:
+      filename: inference.log
+      max_size: 2M
+      backup_count: 20
+      compress: true
+    access:
+      filename: access.log
+      max_size: 1M
+      backup_count: 10
+      compress: true
+    error:
+      filename: error.log
+      max_size: 1M
+      backup_count: 30
+      compress: true

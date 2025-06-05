@@ -1,0 +1,1325 @@
+05-Jun-2025 11:21:52.526 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:21:52.529 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:22:57.890 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:22:57.892 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:24:51.630 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:24:51.633 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:26:29.002 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:26:29.005 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:31:42.757 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 11:31:42.759 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:04:59.413 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:04:59.416 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:05:47.062 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:05:47.065 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:13:14.590 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:13:14.593 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:14:00.068 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:14:00.070 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:17:18.716 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:17:18.719 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:20:56.067 오류 [MainThread] Failed to load model Llama-4-Scout-17B-16E-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:20:56.069 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama4_17b_scout_instruct_loader.py", line 94, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:23:36.987 오류 [MainThread] Failed to load model Llama-3.1-8B-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:23:36.989 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:31:42.951 오류 [MainThread] Failed to load model Llama-3.1-8B-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:31:42.954 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:31:56.986 오류 [MainThread] Failed to load model Llama-3.1-8B-Instruct: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:31:56.988 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:35:57.828 오류 [MainThread] Failed to load model Llama-3.1-8B-Instruct: CUDA error: invalid device ordinal
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 13:35:57.830 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 228, in main
+    asyncio.run(model_loader.load())
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/data/chatbot/sdc3031/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 133, in load
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4574, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4991, in _load_pretrained_model
+    caching_allocator_warmup(model_to_load, expanded_device_map, hf_quantizer)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 6051, in caching_allocator_warmup
+    device_memory = torch.cuda.mem_get_info(index)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/cuda/memory.py", line 712, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+RuntimeError: CUDA error: invalid device ordinal
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+05-Jun-2025 15:14:43.470 오류 [ThreadPoolExecutor-1_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:14:43.472 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:15:27.289 오류 [ThreadPoolExecutor-2_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:15:27.290 오류 [ThreadPoolExecutor-2_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:19:12.407 오류 [ThreadPoolExecutor-1_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:19:12.409 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:19:15.134 오류 [ThreadPoolExecutor-2_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:19:15.134 오류 [ThreadPoolExecutor-2_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:19:16.413 오류 [ThreadPoolExecutor-3_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:19:16.413 오류 [ThreadPoolExecutor-3_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:41.832 오류 [ThreadPoolExecutor-1_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:41.833 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 179, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:43.198 오류 [ThreadPoolExecutor-2_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:43.198 오류 [ThreadPoolExecutor-2_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 179, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:45.389 오류 [ThreadPoolExecutor-3_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:45.390 오류 [ThreadPoolExecutor-3_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 179, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:46.442 오류 [ThreadPoolExecutor-4_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:46.442 오류 [ThreadPoolExecutor-4_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 179, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:47.203 오류 [ThreadPoolExecutor-5_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:47.203 오류 [ThreadPoolExecutor-5_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 179, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:47.784 오류 [ThreadPoolExecutor-6_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:22:47.785 오류 [ThreadPoolExecutor-6_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 179, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:29:13.904 오류 [MainThread] Application error
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 223, in main
+    ModelLoaderClass = Llama32BLoader
+NameError: name 'Llama32BLoader' is not defined
+05-Jun-2025 15:40:52.749 오류 [ThreadPoolExecutor-1_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:40:52.751 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:47:18.400 오류 [Thread-5 (process_request_thread)] Unhandled exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+05-Jun-2025 15:47:23.264 오류 [Thread-6 (process_request_thread)] Unhandled exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+05-Jun-2025 15:47:25.163 오류 [Thread-7 (process_request_thread)] Unhandled exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+05-Jun-2025 15:55:06.337 오류 [Thread-5 (process_request_thread)] Unhandled exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/werkzeug/routing/map.py", line 624, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+05-Jun-2025 15:55:10.846 오류 [ThreadPoolExecutor-1_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 15:55:10.847 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:00:58.688 오류 [ThreadPoolExecutor-1_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:00:58.690 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:00:59.964 오류 [ThreadPoolExecutor-2_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:00:59.965 오류 [ThreadPoolExecutor-2_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:00.701 오류 [ThreadPoolExecutor-3_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:00.701 오류 [ThreadPoolExecutor-3_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:01.263 오류 [ThreadPoolExecutor-4_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:01.263 오류 [ThreadPoolExecutor-4_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:02.056 오류 [ThreadPoolExecutor-5_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:02.057 오류 [ThreadPoolExecutor-5_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:04.898 오류 [ThreadPoolExecutor-6_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:04.899 오류 [ThreadPoolExecutor-6_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:05.613 오류 [ThreadPoolExecutor-7_0] Error during text generation: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:01:05.613 오류 [ThreadPoolExecutor-7_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 181, in generate
+    generated_text = await _model_instance.generate(
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_2b_instruct_loader.py", line 210, in generate
+    outputs = self.model.generate(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 2357, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/generation/utils.py", line 1599, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['return_full_text', 'truncate', 'max_output_tokens'] (note: typos in the generate arguments will also show up in this list)
+05-Jun-2025 16:13:49.666 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 164, in generate
+    'request_id': request_id,
+NameError: name 'request_id' is not defined
+05-Jun-2025 16:13:55.233 오류 [ThreadPoolExecutor-2_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 164, in generate
+    'request_id': request_id,
+NameError: name 'request_id' is not defined
+05-Jun-2025 16:13:56.492 오류 [ThreadPoolExecutor-3_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 164, in generate
+    'request_id': request_id,
+NameError: name 'request_id' is not defined
+05-Jun-2025 16:15:34.853 오류 [ThreadPoolExecutor-1_0] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 191, in generate
+    'timestamp': datetime.now().isoformat()
+NameError: name 'datetime' is not defined

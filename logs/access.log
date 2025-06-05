@@ -1,0 +1,129 @@
+2025-06-05T15:06:32.316127  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - GET /api/v1/model/info
+2025-06-05T15:07:40.310321  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - GET /api/v1/model/info
+2025-06-05T15:07:51.949312  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - GET /api/v1/model/info
+2025-06-05T15:10:46.827207  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - GET /api/v1/model/info
+2025-06-05T15:14:43.463014  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T15:14:43.475740  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:15:27.287387  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Inference request received
+2025-06-05T15:15:27.293375  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:19:12.401396  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T15:19:12.412674  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:19:15.132170  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Inference request received
+2025-06-05T15:19:15.138003  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:19:16.411132  INFO  1 --- [talkware] [ThreadPoolExecutor-3_0] Inference request received
+2025-06-05T15:19:16.418442  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:22:41.825757  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T15:22:41.836811  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:22:43.197048  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Inference request received
+2025-06-05T15:22:43.201806  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:22:45.387651  INFO  1 --- [talkware] [ThreadPoolExecutor-3_0] Inference request received
+2025-06-05T15:22:45.393453  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:22:46.441260  INFO  1 --- [talkware] [ThreadPoolExecutor-4_0] Inference request received
+2025-06-05T15:22:46.445932  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:22:47.201844  INFO  1 --- [talkware] [ThreadPoolExecutor-5_0] Inference request received
+2025-06-05T15:22:47.207117  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:22:47.782867  INFO  1 --- [talkware] [ThreadPoolExecutor-6_0] Inference request received
+2025-06-05T15:22:47.788753  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:24:21.042496  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] Inference request received
+2025-06-05T15:24:21.043925  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:24:36.168025  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] Inference request received
+2025-06-05T15:24:36.168670  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:25:04.660611  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] Inference request received
+2025-06-05T15:25:04.661287  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:25:08.354083  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] Inference request received
+2025-06-05T15:25:08.354704  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:25:11.293993  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] Inference request received
+2025-06-05T15:25:11.294591  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:29:55.975753  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] Inference request received
+2025-06-05T15:29:55.977432  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:29:57.435865  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] Inference request received
+2025-06-05T15:29:57.436646  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:29:58.721872  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] Inference request received
+2025-06-05T15:29:58.722468  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:29:59.927585  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] Inference request received
+2025-06-05T15:29:59.928266  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:30:35.934960  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] Inference request received
+2025-06-05T15:30:35.935725  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:30:40.087527  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] Inference request received
+2025-06-05T15:30:40.088217  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:30:43.938337  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] Inference request received
+2025-06-05T15:30:43.938936  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:31:25.385651  INFO  1 --- [talkware] [Thread-10 (process_request_thread)] Inference request received
+2025-06-05T15:31:25.386203  INFO  1 --- [talkware] [Thread-10 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:31:32.624476  INFO  1 --- [talkware] [Thread-11 (process_request_thread)] Inference request received
+2025-06-05T15:31:32.625124  INFO  1 --- [talkware] [Thread-11 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:31:40.298596  INFO  1 --- [talkware] [Thread-12 (process_request_thread)] Inference request received
+2025-06-05T15:31:40.299306  INFO  1 --- [talkware] [Thread-12 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:33:58.391539  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] Inference request received
+2025-06-05T15:33:58.392987  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:34:02.241589  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] Inference request received
+2025-06-05T15:34:02.242327  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:40:20.802128  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] Inference request received
+2025-06-05T15:40:20.804259  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:40:21.665294  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] Inference request received
+2025-06-05T15:40:21.666050  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:40:52.743214  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T15:40:52.754484  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:41:37.817493  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T15:41:37.817807  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation request received
+2025-06-05T15:42:54.352056  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation completed
+2025-06-05T15:42:54.353465  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:45:55.197855  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Inference request received
+2025-06-05T15:45:55.198662  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Text generation request received
+2025-06-05T15:47:10.856431  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Text generation completed
+2025-06-05T15:47:10.857858  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - POST /api/v1/generate
+2025-06-05T15:47:18.403683  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - POST /model/info
+2025-06-05T15:47:23.264859  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - POST /
+2025-06-05T15:47:25.164161  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - POST /
+2025-06-05T15:47:28.678242  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 127.0.0.1 - GET /api/v1/model/info
+2025-06-05T15:49:10.198127  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] 127.0.0.1 - GET /api/v1/model/info
+2025-06-05T15:50:41.427374  INFO  1 --- [talkware] [Thread-10 (process_request_thread)] 118.217.7.2 - GET /api/v1/model/info
+2025-06-05T15:51:34.587928  INFO  1 --- [talkware] [Thread-11 (process_request_thread)] 118.217.7.2 - GET /api/v1/model/info
+2025-06-05T15:52:35.348556  INFO  1 --- [talkware] [Thread-12 (process_request_thread)] 118.217.7.2 - GET /api/v1/model/info
+2025-06-05T15:54:18.914777  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - GET /api/v1/model/info
+2025-06-05T15:54:36.633641  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 118.217.7.2 - GET /api/v1/model/info
+2025-06-05T15:55:06.338792  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 118.217.7.2 - GET /api/v1/generate
+2025-06-05T15:55:10.838772  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T15:55:10.851026  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:00:58.681865  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:00:58.693777  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:00:59.963329  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Inference request received
+2025-06-05T16:00:59.968254  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:01:00.698208  INFO  1 --- [talkware] [ThreadPoolExecutor-3_0] Inference request received
+2025-06-05T16:01:00.705080  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:01:01.261882  INFO  1 --- [talkware] [ThreadPoolExecutor-4_0] Inference request received
+2025-06-05T16:01:01.267289  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:01:02.054563  INFO  1 --- [talkware] [ThreadPoolExecutor-5_0] Inference request received
+2025-06-05T16:01:02.062103  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:01:04.897283  INFO  1 --- [talkware] [ThreadPoolExecutor-6_0] Inference request received
+2025-06-05T16:01:04.902482  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:01:05.612062  INFO  1 --- [talkware] [ThreadPoolExecutor-7_0] Inference request received
+2025-06-05T16:01:05.616835  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:13:49.665880  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:13:49.667428  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:13:55.232777  INFO  1 --- [talkware] [ThreadPoolExecutor-2_0] Inference request received
+2025-06-05T16:13:55.233971  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:13:56.492109  INFO  1 --- [talkware] [ThreadPoolExecutor-3_0] Inference request received
+2025-06-05T16:13:56.493672  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:15:34.852273  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:15:34.855140  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:16:53.936701  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:16:53.937131  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation request received
+2025-06-05T16:18:10.083143  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation completed
+2025-06-05T16:18:10.085621  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:23:39.757602  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:23:39.758116  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation request received
+2025-06-05T16:24:55.964799  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation completed
+2025-06-05T16:24:55.967430  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:32:43.078823  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:32:43.079355  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation request received
+2025-06-05T16:33:58.168408  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation completed
+2025-06-05T16:33:58.171009  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:36:46.996563  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:36:46.997091  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation request received
+2025-06-05T16:38:04.111024  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation completed
+2025-06-05T16:38:04.113882  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate
+2025-06-05T16:42:38.927748  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Inference request received
+2025-06-05T16:42:38.928462  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation request received
+2025-06-05T16:43:55.633238  INFO  1 --- [talkware] [ThreadPoolExecutor-1_0] Text generation completed
+2025-06-05T16:43:55.635720  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - POST /api/v1/generate

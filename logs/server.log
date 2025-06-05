@@ -1,0 +1,10 @@
+Starting application...
+Current working directory: /data/chatbot/sdc3031/talkware
+Python path: ['/data/chatbot/sdc3031/talkware', '/data/chatbot/sdc3031/myenv/lib/python310.zip', '/data/chatbot/sdc3031/myenv/lib/python3.10', '/data/chatbot/sdc3031/myenv/lib/python3.10/lib-dynload', '/home/ubuntu/.local/lib/python3.10/site-packages', '/data/chatbot/sdc3031/myenv/lib/python3.10/site-packages', '/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_vendor', '/tmp/tmpgdolp5c5']
+Setting up logging...
+Current working directory: /data/chatbot/sdc3031/talkware
+Base directory: /data/chatbot/sdc3031/talkware
+Loading logging config from: /data/chatbot/sdc3031/talkware/config/logging.yml
+Logging setup completed
+Log directory: /data/chatbot/sdc3031/talkware/logs
+Log files in directory: ['inference.log', 'archive', 'access.log', 'talkware.log', 'error.log', 'server_error.log.20250605111409.bak', 'temp', 'server_error.log', 'talkware.log.20250605111409.bak', 'server.log']

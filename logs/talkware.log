@@ -1,0 +1,833 @@
+2025-06-05T11:21:48.034629  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T11:21:48.035071  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T11:21:48.035886  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T11:21:48.084927  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T11:21:48.085042  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T11:21:49.788058  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T11:21:52.246196  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:21:52.246392  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:21:52.247403  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:21:52.272214  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:21:52.273185  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:21:52.274101  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:21:52.531414  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T11:21:52.532504  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:21:52.533838  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:22:51.715747  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T11:22:51.716208  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T11:22:51.717316  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T11:22:51.774757  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T11:22:51.774875  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T11:22:53.997908  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T11:22:57.557445  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:22:57.557680  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:22:57.558863  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:22:57.583990  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:22:57.584090  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:22:57.585241  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:22:57.896334  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T11:22:57.896429  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:22:57.897837  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:24:45.996992  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T11:24:45.997538  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T11:24:45.998759  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T11:24:46.056599  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T11:24:46.057868  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T11:24:48.014712  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T11:24:50.369867  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:24:50.370050  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:24:50.373166  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:24:50.398036  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:24:50.399350  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:24:50.400630  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:24:51.636499  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T11:24:51.637806  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:24:51.639338  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:26:23.292518  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T11:26:23.292926  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T11:26:23.294098  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T11:26:24.217721  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T11:26:24.217851  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T11:26:26.113011  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T11:26:28.674049  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:26:28.674245  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:26:28.675430  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:26:28.700925  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:26:28.701039  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:26:28.702146  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:26:29.007516  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T11:26:29.007648  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:26:29.009373  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:31:37.582844  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T11:31:37.583246  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T11:31:37.584765  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T11:31:38.018208  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T11:31:38.018332  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T11:31:39.755179  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T11:31:42.477667  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:31:42.477868  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:31:42.479476  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:31:42.503763  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T11:31:42.503870  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T11:31:42.505266  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T11:31:42.763783  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T11:31:42.763879  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T11:31:42.765456  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:04:54.824304  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:04:54.824783  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:04:54.826549  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T13:04:54.876998  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T13:04:54.877118  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:04:56.702667  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:04:59.119372  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:04:59.119631  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:04:59.121163  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:04:59.146508  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:04:59.146629  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:04:59.147884  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:04:59.418936  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:04:59.419034  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:04:59.420726  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:05:42.563659  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:05:42.564120  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:05:42.565701  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T13:05:42.615297  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T13:05:42.615423  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:05:44.305636  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:05:46.740534  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:05:46.740775  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:05:46.742381  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:05:46.767904  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:05:46.768020  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:05:46.769361  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:05:47.067931  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:05:47.068038  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:05:47.069806  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:13:09.496493  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:13:09.496998  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:13:09.498659  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T13:13:09.606651  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T13:13:09.608561  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:13:11.997409  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:13:14.260079  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:13:14.261711  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:13:14.262975  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:13:14.288352  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:13:14.289724  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:13:14.290938  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:13:14.595825  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:13:14.597057  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:13:14.598455  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:13:55.281231  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:13:55.281652  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:13:55.283025  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T13:13:55.368448  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T13:13:55.368566  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:13:57.694637  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:13:59.746963  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:13:59.747154  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:13:59.748894  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:13:59.773807  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:13:59.773915  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:13:59.775206  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:14:00.073157  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:14:00.073270  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:14:00.074954  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:17:14.995707  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:17:14.996150  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:17:14.997671  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T13:17:15.093239  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T13:17:15.093367  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:17:16.769752  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:17:18.400079  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:17:18.400311  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:17:18.402041  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:17:18.427149  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:17:18.427249  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:17:18.428725  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:17:18.721559  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:17:18.721656  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:17:18.723335  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:20:52.040434  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:20:52.040798  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:20:52.042458  INFO  1 --- [talkware] [MainThread] Initializing llama4_scout loader
+2025-06-05T13:20:52.143362  INFO  1 --- [talkware] [MainThread] Loading Llama-4-Scout-17B-16E-Instruct model using tokenize mode...
+2025-06-05T13:20:52.143498  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:20:53.864668  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:20:55.752980  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:20:55.753182  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:20:55.754873  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:20:55.780070  WARNING 1 --- [talkware] [MainThread] Device 1 is not available, available devices are [0]
+2025-06-05T13:20:55.780177  WARNING 1 --- [talkware] [MainThread] Device 2 is not available, available devices are [0]
+2025-06-05T13:20:55.781562  WARNING 1 --- [talkware] [MainThread] Device 3 is not available, available devices are [0]
+2025-06-05T13:20:56.072217  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:20:56.072327  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:20:56.074127  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:23:35.237991  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:23:35.238445  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:23:35.239716  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T13:23:35.339414  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T13:23:35.339553  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:23:36.420695  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T13:23:36.420960  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:23:36.991747  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:23:36.991842  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:23:36.993460  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:31:40.614680  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:31:40.615100  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:31:40.616450  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T13:31:40.715279  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T13:31:40.715414  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:31:42.364383  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T13:31:42.364680  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:31:42.956135  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:31:42.956233  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:31:42.957801  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:31:54.710816  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:31:54.711244  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:31:54.712760  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T13:31:54.804185  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T13:31:54.804319  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:31:56.465336  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T13:31:56.465603  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:31:56.990706  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:31:56.990801  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:31:56.992426  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:35:55.985411  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:35:55.985827  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:35:55.987323  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T13:35:56.076038  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T13:35:56.076167  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:35:57.247586  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T13:35:57.247890  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:35:57.833175  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T13:35:57.833269  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:35:57.835006  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T13:49:29.225064  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T13:49:29.225565  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T13:49:29.227176  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T13:49:29.313207  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T13:49:29.313327  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T13:49:30.394228  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T13:49:30.394485  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T13:49:36.807063  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [6s<00:00, 0.62it/s]
+2025-06-05T13:49:36.807231  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T13:49:36.808839  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T13:49:36.832534  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T13:49:36.833292  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T13:49:36.839353  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T13:49:36.839480  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T13:49:36.840644  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T14:03:20.139699  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T14:03:20.140109  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T14:03:20.141838  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T14:03:20.709690  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T14:03:20.709828  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T14:03:21.886784  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T14:03:21.887044  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T14:03:29.238924  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.54it/s]
+2025-06-05T14:03:29.239102  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T14:03:29.240754  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T14:03:29.267671  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T14:03:29.268433  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T14:03:29.274640  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T14:03:29.274757  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T14:03:29.275977  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T14:19:23.899917  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T14:19:23.900320  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T14:19:23.902296  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T14:19:23.970108  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T14:19:23.970227  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T14:19:29.116682  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T14:19:29.116932  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T14:20:27.515676  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [58s<00:00, 0.07it/s]
+2025-06-05T14:20:27.515858  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T14:20:27.517625  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T14:20:27.543003  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T14:20:27.543412  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T14:20:27.549903  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T14:20:27.550016  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T14:20:27.551249  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:01:55.078937  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:01:55.190781  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:01:55.249455  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:01:55.250044  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:01:55.251320  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:01:55.253067  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:02:05.780915  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:02:05.781366  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:02:05.782594  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:02:05.844208  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:02:05.844327  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:02:07.067182  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:02:07.067438  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:02:10.783805  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [4s<00:00, 1.08it/s]
+2025-06-05T15:02:10.783983  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:02:10.785718  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:02:10.812002  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:02:10.812430  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:02:10.818549  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:02:10.828068  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:02:10.829299  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:03:28.910333  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:03:29.402791  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:03:29.473484  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:03:29.474102  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:03:29.475285  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:03:29.476796  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:03:36.623814  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:03:36.624224  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:03:36.625595  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:03:36.684360  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:03:36.684497  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:03:37.725817  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:03:37.726054  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:03:40.577710  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.40it/s]
+2025-06-05T15:03:40.577916  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:03:40.579617  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:03:40.605589  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:03:40.606018  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:03:40.612200  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:03:40.612316  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:03:40.613618  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:06:32.318115  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:06:32] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:07:40.311219  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:07:40] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:07:51.949846  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:07:51] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:08:37.922165  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:08:38.002203  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:08:38.062781  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:08:38.064536  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:08:38.065811  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:08:38.067223  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:10:26.304259  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:10:26.304662  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:10:26.306130  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:10:26.374564  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:10:26.374695  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:10:27.545485  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:10:27.545745  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:10:30.583683  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.32it/s]
+2025-06-05T15:10:30.583860  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:10:30.585444  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:10:30.612878  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:10:30.613309  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:10:30.619607  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:10:30.619724  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:10:30.620956  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:10:46.830228  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:10:46] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:14:43.476511  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:14:43] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:15:27.293994  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:15:27] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:18:56.135596  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:18:56.505425  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:18:56.562418  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:18:56.563166  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:18:56.564309  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:18:56.566143  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:19:04.419247  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:19:04.419693  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:19:04.421046  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:19:04.491266  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:19:04.491383  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:19:05.547545  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:19:05.547776  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:19:08.329502  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.44it/s]
+2025-06-05T15:19:08.329665  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:19:08.331254  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:19:08.358340  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:19:08.358750  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:19:08.364808  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:19:08.364925  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:19:08.366132  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:19:12.414606  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:19:12] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:19:15.138521  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:19:15] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:19:16.419032  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:19:16] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:22:27.567693  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:22:27.614915  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:22:27.667656  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:22:27.668242  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:22:27.669361  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:22:27.670834  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:22:34.896830  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:22:34.897238  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:22:34.898550  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:22:34.961361  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:22:34.961481  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:22:36.182285  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:22:36.182538  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:22:39.365885  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.26it/s]
+2025-06-05T15:22:39.366124  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:22:39.367925  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:22:39.396533  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:22:39.396962  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:22:39.403209  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:22:39.403318  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:22:39.404603  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:22:41.838648  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:22:41] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:22:43.202357  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:22:43] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:22:45.394063  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:22:45] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:22:46.446491  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:22:46] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:22:47.207703  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:22:47] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:22:47.789531  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:22:47] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:23:52.479899  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:23:52.848283  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:23:52.895888  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:23:52.896520  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:23:52.897702  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:23:52.899280  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:24:00.931639  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:24:00.932030  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:24:00.933263  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:24:00.990479  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:24:00.990596  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:24:02.178057  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:24:02.178306  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:24:05.109288  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.37it/s]
+2025-06-05T15:24:05.109466  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:24:05.111155  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:24:05.138265  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:24:05.138704  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:24:05.144851  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:24:05.144963  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:24:05.146190  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:24:21.042791  ERROR 1 --- [talkware] [Thread-3 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:24:21.045465  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:24:21] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:24:36.168281  ERROR 1 --- [talkware] [Thread-4 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:24:36.170149  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:24:36] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:25:04.660914  ERROR 1 --- [talkware] [Thread-5 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:25:04.662480  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:25:04] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:25:08.354354  ERROR 1 --- [talkware] [Thread-6 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:25:08.356020  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:25:08] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:25:11.294246  ERROR 1 --- [talkware] [Thread-7 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:25:11.347826  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:25:11] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:28:39.428903  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:28:39.516078  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:28:39.586361  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:28:39.587044  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:28:39.588135  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:28:39.589810  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:29:13.902747  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:29:13.903135  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:29:13.904696  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:29:13.905697  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:29:13.907050  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:29:43.630361  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:29:43.630739  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:29:43.632339  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:29:43.690590  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:29:43.690711  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:29:45.210732  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:29:45.210999  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:29:48.490423  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.22it/s]
+2025-06-05T15:29:48.490602  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:29:48.492345  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:29:48.520044  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:29:48.520478  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:29:48.526932  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:29:48.528224  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:29:48.529438  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:29:55.976118  ERROR 1 --- [talkware] [Thread-3 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:29:55.979090  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:29:55] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:29:57.436227  ERROR 1 --- [talkware] [Thread-4 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:29:57.438291  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:29:57] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:29:58.722118  ERROR 1 --- [talkware] [Thread-5 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:29:58.723966  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:29:58] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:29:59.927878  ERROR 1 --- [talkware] [Thread-6 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:29:59.929535  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:29:59] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:30:35.935302  ERROR 1 --- [talkware] [Thread-7 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:30:35.937507  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:30:35] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:30:40.087844  ERROR 1 --- [talkware] [Thread-8 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:30:40.089562  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:30:40] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:30:43.938578  ERROR 1 --- [talkware] [Thread-9 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:30:43.940640  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:30:43] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:31:25.385865  ERROR 1 --- [talkware] [Thread-10 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:31:25.387858  INFO  1 --- [talkware] [Thread-10 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:31:25] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:31:32.624772  ERROR 1 --- [talkware] [Thread-11 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:31:32.626968  INFO  1 --- [talkware] [Thread-11 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:31:32] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:31:40.298909  ERROR 1 --- [talkware] [Thread-12 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 194, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:31:40.301049  INFO  1 --- [talkware] [Thread-12 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:31:40] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:33:41.765084  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:33:41.931908  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:33:41.994291  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:33:41.995044  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:33:41.996265  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:33:41.997760  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:33:50.206103  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:33:50.206516  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:33:50.207690  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:33:50.271370  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:33:50.271519  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:33:51.277866  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:33:51.278133  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:33:54.135827  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.40it/s]
+2025-06-05T15:33:54.136010  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:33:54.137693  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:33:54.164690  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:33:54.165108  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:33:54.171322  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:33:54.171438  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:33:54.172683  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:33:58.391850  ERROR 1 --- [talkware] [Thread-3 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 195, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:33:58.394657  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:33:58] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:34:02.241879  ERROR 1 --- [talkware] [Thread-4 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 195, in generate
+    completion_tokens = len(generated_text.split())
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:34:02.243856  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:34:02] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:40:20.802892  ERROR 1 --- [talkware] [Thread-5 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 195, in generate
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:40:20.805189  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:40:20] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:40:21.665631  ERROR 1 --- [talkware] [Thread-6 (process_request_thread)] Inference request failed
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/controller/inference_controller.py", line 195, in generate
+AttributeError: 'coroutine' object has no attribute 'split'
+2025-06-05T15:40:21.667283  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:40:21] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:40:32.583587  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:40:32.676754  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:40:32.740655  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:40:32.741289  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:40:32.742479  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:40:32.744133  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:40:40.203884  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:40:40.204267  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:40:40.205601  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:40:40.264851  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:40:40.264971  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:40:41.734822  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:40:41.735070  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:40:44.953564  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.24it/s]
+2025-06-05T15:40:44.953739  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:40:44.955467  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:40:44.981899  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:40:44.982320  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:40:44.988389  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:40:44.988499  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:40:44.989649  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:40:52.756227  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:40:52] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:41:21.027203  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:41:21.270930  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:41:21.329018  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:41:21.329674  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:41:21.330798  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:41:21.332332  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:41:28.890942  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:41:28.891550  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:41:28.892887  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T15:41:28.952367  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T15:41:28.952491  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:41:30.160205  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:41:30.160456  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T15:41:36.691153  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.61it/s]
+2025-06-05T15:41:36.691338  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:41:36.693027  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:41:36.721774  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T15:41:36.722527  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:41:36.728606  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:41:36.728719  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:41:36.738624  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:42:54.355971  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:42:54] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T15:47:10.859761  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:47:10] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T15:47:18.403964  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:47:18] "[35m[1mPOST /model/info HTTP/1.1[0m" 500 -
+2025-06-05T15:47:23.265136  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:47:23] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-06-05T15:47:25.164419  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:47:25] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-06-05T15:47:28.678742  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:47:28] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:49:10.199253  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] 127.0.0.1 - - [05/Jun/2025 15:49:10] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:50:41.428304  INFO  1 --- [talkware] [Thread-10 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:50:41] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:51:34.588811  INFO  1 --- [talkware] [Thread-11 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:51:34] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:52:35.349368  INFO  1 --- [talkware] [Thread-12 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:52:35] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:53:43.474484  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:53:43.922682  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:53:43.970310  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T15:53:43.970777  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T15:53:43.972036  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:53:43.973431  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:54:04.420939  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:54:04.421302  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:54:04.422835  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:54:04.479908  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:54:04.480024  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:54:05.658496  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:54:05.658744  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:54:08.647220  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.34it/s]
+2025-06-05T15:54:08.647435  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:54:08.649242  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:54:08.711589  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:54:08.712076  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:54:08.718771  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:54:08.718889  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:54:08.720199  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T15:54:18.916312  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:54:18] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:54:36.634156  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:54:36] "GET /api/v1/model/info HTTP/1.1" 200 -
+2025-06-05T15:55:06.339074  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:55:06] "[35m[1mGET /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:55:10.851491  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 15:55:10] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T15:59:42.059940  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T15:59:42.121773  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T15:59:42.176820  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T15:59:42.177498  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T15:59:42.178564  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:59:42.180309  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T15:59:52.202635  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T15:59:52.203039  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T15:59:52.204241  INFO  1 --- [talkware] [MainThread] Initializing llama32b loader
+2025-06-05T15:59:52.271039  INFO  1 --- [talkware] [MainThread] Loading Llama-3.2-3B-Instruct model using tokenize mode...
+2025-06-05T15:59:52.271165  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T15:59:53.417953  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T15:59:53.418209  INFO  1 --- [talkware] [MainThread] Starting model loading...
+2025-06-05T15:59:56.419748  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [3s<00:00, 1.33it/s]
+2025-06-05T15:59:56.419917  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T15:59:56.421489  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T15:59:56.449145  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct initialization completed
+2025-06-05T15:59:56.449570  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T15:59:56.455710  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T15:59:56.455822  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T15:59:56.456991  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:00:58.695650  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:00:58] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:00:59.968777  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:00:59] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:01:00.705613  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:01:00] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:01:01.267911  INFO  1 --- [talkware] [Thread-6 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:01:01] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:01:02.062692  INFO  1 --- [talkware] [Thread-7 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:01:02] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:01:04.903047  INFO  1 --- [talkware] [Thread-8 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:01:04] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:01:05.617234  INFO  1 --- [talkware] [Thread-9 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:01:05] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:10:01.074223  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:10:01.179244  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:10:01.230516  INFO  1 --- [talkware] [MainThread] Model Llama-3.2-3B-Instruct unloaded successfully
+2025-06-05T16:10:01.231127  INFO  1 --- [talkware] [MainThread] Model llama32b unloaded successfully
+2025-06-05T16:10:01.232335  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:10:01.234129  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:13:36.214810  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:13:36.215217  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:13:36.216572  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:13:36.274220  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:13:36.274338  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:13:37.275481  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:13:37.275734  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:13:44.100344  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.59it/s]
+2025-06-05T16:13:44.100522  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:13:44.102157  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:13:44.130001  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:13:44.130775  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:13:44.137123  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:13:44.137232  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:13:44.138477  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:13:49.669339  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:13:49] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:13:55.234944  INFO  1 --- [talkware] [Thread-4 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:13:55] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:13:56.494209  INFO  1 --- [talkware] [Thread-5 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:13:56] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:14:24.180844  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:14:24.521724  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:14:24.576333  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:14:24.576710  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:14:24.578043  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:14:24.582123  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:14:31.829281  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:14:31.829661  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:14:31.831114  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:14:31.887879  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:14:31.887998  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:14:33.074362  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:14:33.074616  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:14:39.836989  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.59it/s]
+2025-06-05T16:14:39.837163  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:14:39.838796  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:14:39.866851  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:14:39.867654  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:14:39.874093  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:14:39.874206  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:14:39.875385  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:15:34.856932  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:15:34] "[35m[1mPOST /api/v1/generate HTTP/1.1[0m" 500 -
+2025-06-05T16:16:37.996945  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:16:38.415835  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:16:38.479152  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:16:38.479579  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:16:38.480947  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:16:38.482502  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:16:45.789991  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:16:45.790383  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:16:45.791729  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:16:45.857839  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:16:45.857957  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:16:47.041129  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:16:47.041387  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:16:53.563768  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.61it/s]
+2025-06-05T16:16:53.563964  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:16:53.565762  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:16:53.594563  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:16:53.595323  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:16:53.601574  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:16:53.601688  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:16:53.602912  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:18:10.087415  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:18:10] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T16:23:22.010410  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:23:22.348868  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:23:22.396417  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:23:22.396796  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:23:22.398143  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:23:22.399672  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:23:30.481034  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:23:30.481534  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:23:30.482781  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:23:30.566963  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:23:30.567086  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:23:31.752745  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:23:31.753000  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:23:38.489536  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.59it/s]
+2025-06-05T16:23:38.489714  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:23:38.491270  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:23:38.518525  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:23:38.519295  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:23:38.525362  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:23:38.525472  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:23:38.527480  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:24:55.969748  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:24:55] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T16:32:27.072791  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:32:27.318328  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:32:27.366566  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:32:27.366974  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:32:27.368379  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:32:27.369935  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:32:34.986867  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:32:34.987278  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:32:34.988737  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:32:35.052986  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:32:35.053112  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:32:36.550456  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:32:36.550706  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:32:42.893852  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [6s<00:00, 0.63it/s]
+2025-06-05T16:32:42.894029  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:32:42.895831  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:32:42.952362  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:32:42.953115  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:32:42.959101  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:32:42.959214  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:32:42.960459  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:33:58.172758  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:33:58] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T16:36:18.181845  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:36:18.304669  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:36:18.350853  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:36:18.351248  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:36:18.352556  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:36:18.354027  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:36:26.369385  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:36:26.369834  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:36:26.371193  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:36:26.429285  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:36:26.429406  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:36:28.123349  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:36:28.123603  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:36:34.591716  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [6s<00:00, 0.62it/s]
+2025-06-05T16:36:34.591898  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:36:34.593610  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:36:34.622115  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:36:34.622870  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:36:34.629243  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:36:34.629361  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:36:34.630659  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:38:04.115742  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:38:04] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T16:42:21.989264  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:42:22.358561  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:42:22.406681  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:42:22.407105  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:42:22.409267  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:42:22.410824  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:42:29.842409  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T16:42:29.842792  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T16:42:29.844099  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T16:42:29.902395  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T16:42:29.902518  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T16:42:31.442073  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T16:42:31.442334  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T16:42:38.714702  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.55it/s]
+2025-06-05T16:42:38.714883  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T16:42:38.716622  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T16:42:38.744754  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T16:42:38.745501  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T16:42:38.751627  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T16:42:38.751737  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T16:42:38.752910  INFO  1 --- [talkware] [MainThread] Server startup complete
+2025-06-05T16:43:55.637413  INFO  1 --- [talkware] [Thread-3 (process_request_thread)] 118.217.7.2 - - [05/Jun/2025 16:43:55] "POST /api/v1/generate HTTP/1.1" 200 -
+2025-06-05T16:57:40.682966  INFO  1 --- [talkware] [MainThread] Shutting down talkware[0.1.0]...
+2025-06-05T16:57:40.875675  INFO  1 --- [talkware] [MainThread] Web server stopped
+2025-06-05T16:57:40.922765  INFO  1 --- [talkware] [MainThread] Llama-3.1-8B-Instruct unloaded successfully
+2025-06-05T16:57:40.923136  INFO  1 --- [talkware] [MainThread] Model llama3 unloaded successfully
+2025-06-05T16:57:40.924725  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T16:57:40.926229  INFO  1 --- [talkware] [MainThread] Application Shutdown
+2025-06-05T17:15:00.267862  INFO  1 --- [talkware] [MainThread] Logging system initialized
+2025-06-05T17:15:00.268335  INFO  1 --- [talkware] [MainThread] Model configuration loaded successfully
+2025-06-05T17:15:00.269976  INFO  1 --- [talkware] [MainThread] Initializing llama3 loader
+2025-06-05T17:15:00.947285  INFO  1 --- [talkware] [MainThread] Loading Llama-3.1-8B-Instruct model using tokenize mode...
+2025-06-05T17:15:00.947426  INFO  1 --- [talkware] [MainThread] Initial GPU memory usage: 0.00MB
+2025-06-05T17:15:02.063979  INFO  1 --- [talkware] [MainThread] Set pad_token to eos_token for tokenizer
+2025-06-05T17:15:02.064249  INFO  1 --- [talkware] [MainThread] Starting model loading with checkpoint shards...
+2025-06-05T17:15:09.487593  INFO  1 --- [talkware] [MainThread] Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 4/4 [7s<00:00, 0.54it/s]
+2025-06-05T17:15:09.487792  INFO  1 --- [talkware] [MainThread] Model loading completed
+2025-06-05T17:15:09.489627  INFO  1 --- [talkware] [MainThread] Set model pad_token_id to 128009
+2025-06-05T17:15:09.518562  INFO  1 --- [talkware] [MainThread] Model Llama-3.1-8B-Instruct initialization completed
+2025-06-05T17:15:09.519393  INFO  1 --- [talkware] [MainThread] Model loaded successfully
+2025-06-05T17:15:09.528231  INFO  1 --- [talkware] [MainThread] Web server started on http://0.0.0.0:4003
+2025-06-05T17:15:09.528348  INFO  1 --- [talkware] [MainThread] Starting talkware[0.1.0] server...
+2025-06-05T17:15:09.529584  INFO  1 --- [talkware] [MainThread] Server startup complete

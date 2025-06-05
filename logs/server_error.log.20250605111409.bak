@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data/chatbot/sdc3031/talkware/starter.py", line 13, in <module>
+    from service.model import (
+  File "/data/chatbot/sdc3031/talkware/service/model/__init__.py", line 6, in <module>
+    from .llama3_8b_instruct_loader import Llama3Loader
+  File "/data/chatbot/sdc3031/talkware/service/model/llama3_8b_instruct_loader.py", line 11, in <module>
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+ModuleNotFoundError: No module named 'transformers'

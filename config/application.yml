@@ -1,0 +1,23 @@
+# Application Configuration
+app:
+  name: "talkware"
+  version: "0.1.0"
+  environment: "development"
+  base_dir: ${TALKWARE_SERVER_BASEDIR:/data/chatbot/talkware}  # 현재 작업 디렉토리를 기본 경로로 사용
+
+server:
+  host: ${TALKWARE_SERVER_HOST:0.0.0.0}
+  port: ${TALKWARE_SERVER_PORT:4000}
+  workers: 4
+  timeout: 30
+
+model:
+  model_base_dir: ${TALKWARE_MODEL_BASEDIR:/data/models}  
+  hf_hub_cache: ${TALKWARE_HF_HUB_CACHE:/data/huggingface/hub}  
+  hf_token_path: ${app.base_dir}/.hf_token
+  loader_model: llama3 # llama3 or llama3_quantized or llama4_scout or llama4_maverick or llama32b
+  inference_mode: tokenize # pipeline or tokenize
+
+imports:
+  - "logging.yml"
+  - "monitoring.yml"  

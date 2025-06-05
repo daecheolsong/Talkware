@@ -1,0 +1,17 @@
+[Unit]
+Description=CAS Gen AI Daemon Service (TalkWare)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+
+WorkingDirectory=/data/chatbot/talkware
+ExecStart=/bin/bash /data/chatbot/talkware/bin/talkwarectl.sh start
+ExecStop=/bin/bash /data/chatbot/talkware/bin/talkwarectl.sh stop
+Restart=on-failure
+Environment="FLASK_APP=talkware"
+Environment="FLASK_DEBUG=true"
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,23 @@
+# Monitoring Configuration
+version: 1
+
+monitoring:
+  # 메트릭스 수집 설정
+  metrics:
+    enabled: true
+    interval: 60  # seconds
+    export_dir: ${app.base_dir}/metrics
+    
+  # 시스템 모니터링 설정
+  system:
+    enabled: true
+    collect_cpu: true
+    collect_memory: true
+    collect_disk: true
+    
+  # 모델 모니터링 설정
+  model:
+    enabled: true
+    track_inference: true
+    track_memory: true
+    track_batch: true 
